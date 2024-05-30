@@ -1,0 +1,236 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-weight: bolder;
+}
+h1{
+    font-weight: bolder;
+}
+.f1{
+    
+    background-color: rgb(245, 131, 65);
+    padding-bottom:0px;
+}
+.main{
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: flex;
+    background-color: rgb(245, 131, 65);
+    
+    flex-direction: row;
+    border-style: solid;
+    border-color: grey;
+    align-items: center;
+    
+}
+.title{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    flex:2;
+    margin-left: 40px;
+    
+}
+.navigation ul{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.navigation ul li{
+    list-style:none;
+}
+.navigation ul li a{
+    flex: 1;
+    display:inline;
+    position:relative;
+    text-decoration: none;
+    font-family: Arial;
+    color:white;
+    font-weight: bold;;
+    font-size: 18px;
+    margin-right:40px;
+    justify-content: end;
+    align-items:center;
+}
+.navigation ul li a:hover{
+    color:rgb(253, 131, 32);
+    transition:all 0.3 ease-out ;
+}
+.content{
+    padding-top:90px;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    padding-left: 20px;
+}
+.logo{
+    width:280px;
+    height:270px;
+    border-radius: 143px;
+}
+.c1 p{
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-bottom:0px;
+}
+.c1 h3{
+    padding-top: 0px;
+    font-size:45px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    color:white;
+
+}
+.f2{
+    background-color: aliceblue;
+   
+}
+.about{
+     display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.a1,.a2,.a3{
+    text-align: center;
+}
+.f3{
+    
+    background-color: rgb(23, 154, 194);
+}
+.dest{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: center;
+}
+.f3 h1{
+    text-align: center;
+    font-size: 25px;
+}
+.f4div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+   
+}
+.f4{
+    text-align: center;
+}
+.rev{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    vertical-align: top;
+}
+.im{
+    border-radius: 38px;
+}
+.f5{
+    text-align: center;
+    background-color: yellow;
+}
+.cont{
+    text-align:center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.f6{
+    background-color: black;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+}
+.im1{
+    margin-top: 40px;
+   
+    border-radius:52px;
+    margin-left: 49%;
+    margin-right: 50%;
+}
+.f6 h4{
+    color:white;
+    margin-bottom: 80px;
+    text-align: center;
+}
+  .wrapper .button{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    overflow:hidden;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #0f5875;
+  }
+  .wrapper .button:nth-child(5):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #2e8fb6;
+  }
+  .wrapper .button:nth-child(5) span{
+    color: #ff0000;
+  }
